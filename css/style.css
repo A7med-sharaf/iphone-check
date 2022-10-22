@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+
+body{
+    
+background-image: url(../image/%D0%9E%D0%B1%D0%BE%D0%B8%20%D1%84%D0%BE%D0%BD%D1%8B%20%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BE%D0%B1%D0%BE%D0%B8%20%D0%BD%D0%B0%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%20%D0%BE%D0%B1%D0%BE%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0%20%D0%BB%D1%8F%D0%B3%D1%83%D1%88%D0%BA%D0%B0%20%D0%BE%D0%B1%D0%BE%D0%B8%20%D1%84%D0%BE%D0%BD%D1%8B%20hd%20%D0%B6%D1%83%D1%82%D0%BA%D0%B8%D0%B5%20%D0%BE%D0%B1%D0%BE%D0%B8%20%D0%BD%D0%B0.jfif);
+
+
+    
+background-attachment: fixed;
+    
+background-size: 100% 100%;
+
+    
+
+    
+}
+
+header{
+ 
+   height:40vh;
+    background-color: blueviolet;
+    
+    
+     border-radius: 2.5em;
+    
+    
+}
+.container{
+   
+    width: 90%;
+    margin-left: 4%;
+    
+/* Start header*/    
+}
+
+header container nav{
+    border: 1px solid blue;
+    margin-top: 1.5em;
+    
+}
+
+header nav ul{
+    
+    list-style: none;
+    padding: 0em 1.2em;
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-right: -3.7em;
+font-family: sans-serif;
+line-height: 2.3em;
+ background-color: blueviolet;
+    
+}
+header nav ul a {
+    
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    
+    
+}
+header h1{
+    
+    width: 61%;
+    display: inline-block;
+   margin-top: 5.5em;
+    font-family: system-ui;
+    color: white;
+}
+
+header ul{
+    
+border: 1px solid black;   
+border: 0px solid black;
+    
+    
+}
+
+
+ nav {
+    
+    
+    width: 20%;
+    display: inline-block;
+
+        
+
+}
+.search-box{ 
+
+  margin-top: -30px;
+
+
+
+
+
+}
+.search-box{
+    
+    position: absolute;
+    transform : translate (-50%,-50%);
+    background : #2f3640;
+    height:  20px;
+    border-radius: 9%;
+    padding: 14px;
+    margin-left: 22%
+    
+}
+
+.search-btn{
+    
+ color: r;
+ float:right;
+ width: 25px;
+ height: 26px;
+
+color: white;
+border-radius: 50%;
+    
+background: #2f3640;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+    
+}
+
+.search-box:hover >.search-txt{
+    
+    width: 100px;
+    padding: 0 6px;
+}
+
+.search-txt{
+border: none;
+background: none;
+outline: none;
+    
+float: left;
+padding: 0;
+color: white;
+font-size: 16px;
+transition: 0.5s;
+line-height:26px;
+width: 0px;
+    
+}
+
+
+header ul li{
+ display: inline-block;
+  margin-right: 0.5em;
+    
+}
+
+
+/* End header*/
+
+/* Start contact*/
+
+#contact{
+   border: 3px solid darkgrey;
+    border-radius: 1em;
+   background-color: darkgrey; 
+   padding:19px;
+    margin:28px 0;
+       
+  
+}
+
+#contact .container{
+    
+display:  flex;
+    
+    
+    
+}
+
+
+.container article{
+    flex-basis: 70%;
+    font-size: 1.5em;
+    color: white;
+    
+    
+    
+}
+
+
+
+.container button{
+    
+    flex-basis: 20%;
+     border-radius: 1em;
+    color: white;
+    background-color: deeppink;
+    height: 3em;
+    font-size: 1.4em;
+        margin-left: 131px;
+    
+    
+    
+}
+/* End contact*/
+
+/* start secrvice*/
+
+
+.service{
+
+margin-top: 18px;
+    
+    
+}
+.service img{
+    
+    width:100px;
+    height:100px;
+     margin-right: 0.3em;
+    border: solid beige;
+    border-radius: 1em;
+    
+    
+} 
+
+#services .container {
+    
+    display:flex;
+    margin-left: 105px;
+    
+    
+}
+
+#services .container .service{
+    
+display: flex;    
+    
+    
+}
+
+.service  p{
+    
+color: black;
+    
+    font-size: 19px;
+    
+}
+
+.service  h2{
+    
+color: black;
+  text-decoration: underline;
+    font-size: 1.3em; 
+    margin-left: 2px
+}
+
+
+
+/* end eecrvice */ 
+
+
+/* start fecilics */
+
+#fecilics{
+  padding-top: 4em;    
+    
+    
+    
+}
+#fecilics .container #fecilic-center .line{
+    
+border: 2px solid black;
+width: 28em;;    
+height: 0;
+    
+    
+} 
+#fecilics .container #fecilic-center h1{
+    
+padding: 1% 27px;
+    
+    
+}
+#fecilic-center{ 
+align-items: center;
+display: flex;
+margin-left: 3em;
+
+}
+
+
+.display {
+display: inline-block;
+width: 16%;
+margin: 5%;
+background-color:#c0c0c0;
+}
+.display img{
+    width: 8em;
+    height: 9em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.display h4{
+    font-size: 21.9px;
+    color: black;
+     text-align: center;
+    
+}
+.display p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+}
+
+#side {
+    
+    float: right;
+    border: 1px solid black;
+    width: 21%;
+    padding: 468px 0;
+    margin-top: -683px;
+    background-color: ghostwhite;
+}
+
+#side h1{
+    
+    
+ text-align: center;
+}
+
+/* end fecilics */
+
+
+/* start footer*/
+
+footer{
+    
+display: flex;
+padding: 1% 5%;
+
+background-color: gray;
+}
+
+footer article{
+    
+flex-basis: 25%;    
+    
+    
+} 
+
+footer h2{
+    
+     font-size: 1.8em;
+    padding: 5% 0%;    
+    
+    
+}
+#contact-us p{
+    
+line-height: 1.4em;
+    
+color:white;
+
+    
+}
+
+#Qlink a{
+    
+text-decoration: none;
+color:white;
+font-size: 1.2em;
+     line-height: 1.8em;
+} 
+
+#Qlink hr {   margin: 1% 0%;
+    height: 0px;
+    border: 1px solid black;
+    width: 64%;
+   
+    
+    }
+
+
+#Blog p{
+    
+    line-height: 1.4em;
+    font-size: 1.2em;
+    color: white;
+    
+    
+}
+
+#Blog a{
+    
+    text-decoration: none;
+    float: right;
+    color: black;
+    
+}
+
+
+#Grab ,h2{
+    
+ margin-left: -1px;
+    
+}
+
+
+
+#long input{ 
+    margin: 3% 49px;
+    
+    border: 0px solid black;
+    border-radius: 1em;
+    height: 2.5em;
+    padding: 1% 6.1%;
+
+}
+
+
+#long input[type="submit"]{
+    
+background-color: midnightblue;
+color: white;
+    
+    
+    
+}
+
+
+#end{
+    
+padding: 2%;
+background-color: darkslateblue;
+    
+    
+}
+#end p{
+color: white;
+    font-size: 1.3em;
+}
+    
+    
+    
+    
+    
+
+
+
+
+
+/* end footer*/

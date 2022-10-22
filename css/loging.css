@@ -1,0 +1,94 @@
+*{
+    
+margin: 0;
+padding: 0;
+    
+    
+}
+
+
+body{
+    
+background: #f39c12;    
+font-family: sans-serif;
+    
+}
+
+.login{
+    
+width: 300px;
+padding: 40px;
+/*position: absolute;*/
+
+margin: 15em 31em;    
+background: #191919;
+transform: translate(-50,-50);
+text-align: center;
+    
+    
+    
+}
+
+
+
+.login h1{
+color: white;
+font-weight: 500;
+text-transform: uppercase;
+    
+}
+
+.login input[type="text"],.login input[type="password"]{
+    
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #3498db;
+padding: 10px   14px;
+width: 200px;
+outline: none;
+border-radius:24px;
+transition: 0.30s;
+color: white;
+    
+     
+    
+}
+
+
+
+.login input[type="text"]:focus,.login input[type="password"]:focus{
+    
+    width:280px;
+    border-color: #2ecc71;
+    
+    
+}
+
+.login input[type="submit"]{
+    
+    
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #3498db;
+padding: 14px   40px;
+
+outline: none;
+border-radius:24px;
+transition: 0.30s;
+color: white;
+    
+    
+}
+
+.login input[type="submit"]:hover{
+    
+background: #2ecc71;
+    
+    
+}
